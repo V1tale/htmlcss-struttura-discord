@@ -8,3 +8,45 @@ html {
     font-size: 62.5%;
     font-family:
 }
+header{
+    background-color: yellow;
+    height: 100px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    height: 25%;
+}
+.logo {
+    align-items: flex-start;
+    background-color: blueviolet;
+    padding: 5px 20px 5px 20px;
+    flex-grow: .5;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+}
+.login {
+    align-items: flex-start;
+    padding: 5px 20px 5px 20px;
+    background-color: red;
+    flex-grow: .5;
+    text-align: right;
+    
+}
+
+header li {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+}
+.flex-container > ul {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+ }
