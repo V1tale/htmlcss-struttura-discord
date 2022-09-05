@@ -81,3 +81,37 @@ header li {
 .gray{
     background-color: gray;
 }
+.darkgray {
+    background-color: rgb(63, 63, 63);
+
+}
+.bigblock {
+    background-color: cyan;
+    padding: 10px 0 10px 0;
+    height: 200px;
+}
+
+last-background {
+    height: 400px;
+}
+.clear-fix {
+    content:"";
+    display: table;
+    clear: both;
+    margin: auto;
+
+}
+.column {
+    width: 50px;
+    background-color: rgb(112, 87, 255);
+    height: 200px;
+    flex-grow: 1;
+}
+.bigcolumn {
+    flex-grow: 3;
+    background-color: purple;
+}
+footer {
+    background-color: black;
+    width: 100%;
+}
