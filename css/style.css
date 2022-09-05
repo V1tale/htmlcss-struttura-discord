@@ -111,7 +111,15 @@ last-background {
     flex-grow: 3;
     background-color: purple;
 }
-footer {
+footer, .backgroundfooter{
     background-color: black;
     width: 100%;
+}
+.log {
+background-color: beige;
+}
+.foot {
+    width: 100%;
+    background-color: aquamarine;
+    margin-bottom: 5px;;
 }
